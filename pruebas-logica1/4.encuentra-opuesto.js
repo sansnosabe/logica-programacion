@@ -10,7 +10,7 @@ function opposite(a) {
     }else{
         oppositeNum = a * (-1)
     }
-    return oppositeNum;
+    return oppositeNum; 
 }
 
 console.log(opposite(-2));
