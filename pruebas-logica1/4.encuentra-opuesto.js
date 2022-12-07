@@ -13,4 +13,4 @@ function opposite(a) {
     return oppositeNum;
 }
 
-console.log(opposite(0));
+console.log(opposite(-2));
