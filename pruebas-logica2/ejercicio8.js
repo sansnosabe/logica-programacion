@@ -10,10 +10,11 @@ Como hacerlo:
     - Convertir el string en un entero.
 */
 
-function invertirNumero(numero) {
-    let invertir = numero.toString().split('').reverse().join('')
+// function invertirNumero(numero) {
+//     let invertir = numero.toString().split('').reverse().join('')
 
-    return Number(invertir)
-}
+//     return Number(invertir)
+// }
 
-console.log("El numero invertido es:", invertirNumero(123456789));
+// console.log("El numero invertido es:", invertirNumero(123456789));
+

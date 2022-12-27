@@ -8,7 +8,7 @@ El número menor es : 2
 */
 
 function mayorNumero(numero1, numero2) {
-    let resultado = ""
+    let resultado = "";
 
     if(numero1 === numero2){
         resultado = "¡Los números son iguales!"
