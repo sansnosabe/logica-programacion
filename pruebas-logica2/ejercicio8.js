@@ -1,20 +1,21 @@
 /*Ejercicio 8: 
 Dados un número entero, inviertelo y devuelve de nuevo el entero.
 
-Como hacerlo:
-    - Función que reciba un numero.
-    - Convertir numero en string.
-    - Crear un array por cada numero.
-    - Darle la vuelta.
+Como lo soluciono:
+    - Crear una función que reciba un número.
+    - Convertir número en string.
+    - Crear un array por cada número.
+    - Darle la vuelta al array.
     - Unir el array en un string.
-    - Convertir el string en un entero.
+    - Convertir el string en un número.
 */
 
-// function invertirNumero(numero) {
-//     let invertir = numero.toString().split('').reverse().join('')
+let numeroParaInvertir = 123456789;
 
-//     return Number(invertir)
-// }
+function invertirNumero(numero) {
+    let invertir = numero.toString().split('').reverse().join('');
+    return invertir;
+}
 
-// console.log("El numero invertido es:", invertirNumero(123456789));
+console.log(invertirNumero(numeroParaInvertir)); 
 

@@ -3,14 +3,8 @@
 Dado un número entero, retornar el opuesto.
 */
 
-function opposite(a) { 
-    let oppositeNum = 0;
-    if (a < 0){
-        oppositeNum = Math.abs(a);
-    }else{
-        oppositeNum = a * (-1)
-    }
-    return oppositeNum; 
+function opposite(a) {
+  return a < 0 ? Math.abs(a) : a + (-1);
 }
 
 console.log(opposite(-2));
